@@ -10,4 +10,24 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-vendor/*
+/target
+/.idea
+*/.idea
+*.iml
+*/*.iml
+*.ipr
+*/*.ipr
+*.iws
+*/*.iws
+.idea
+*/*.log
+*/target/
+*.DS_Store
+*.classpath
+*.settings
+*.project
+*/*.iml
+*/.factorypath
+/logs
+*/logs/
+*/package-lock.json
